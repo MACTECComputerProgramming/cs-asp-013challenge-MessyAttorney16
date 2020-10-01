@@ -8,13 +8,13 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Label Content="Logan's Subs and Software" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <Label Content="Sub Size:" HorizontalAlignment="Left" Margin="95,99,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Sub Size:" HorizontalAlignment="Left" Margin="137,98,0,0" VerticalAlignment="Top" FontSize="14"/>
         <Label Content="Bread" HorizontalAlignment="Left" Margin="52,156,0,0" VerticalAlignment="Top"/>
         <Label Content="Meat" HorizontalAlignment="Left" Margin="240,156,0,0" VerticalAlignment="Top"/>
         <Label Content="Cheese" HorizontalAlignment="Left" Margin="411,156,0,0" VerticalAlignment="Top"/>
         <Label Content="Veggies" HorizontalAlignment="Left" Margin="580,156,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="radioSix" Content="Six Inch Sub" HorizontalAlignment="Left" Margin="288,106,0,0" VerticalAlignment="Top" GroupName="sub size"/>
-        <RadioButton x:Name="radioFoot" Content="Foot Long Sub" HorizontalAlignment="Left" Margin="504,106,0,0" VerticalAlignment="Top" GroupName="sub size"/>
+        <RadioButton x:Name="radioSix" Content="Six Inch Sub ($3.50)" HorizontalAlignment="Left" Margin="281,104,0,0" VerticalAlignment="Top" GroupName="sub size" FontSize="14"/>
+        <RadioButton x:Name="radioFoot" Content="Foot Long Sub ($5.00)" HorizontalAlignment="Left" Margin="504,104,0,0" VerticalAlignment="Top" GroupName="sub size" FontSize="14"/>
         <Label x:Name="choiceLabel" Content="Label" HorizontalAlignment="Left" Margin="93,314,0,0" VerticalAlignment="Top" Width="473"/>
         <Label Content="Special *** $2.00 Off Foot Long/Wheat/Meatball/American/Any Veggie" HorizontalAlignment="Left" Margin="53,389,0,0" VerticalAlignment="Top"/>
         <Button x:Name="orderButton" Content="Place Order" HorizontalAlignment="Left" Margin="667,387,0,0" VerticalAlignment="Top" Height="37" Width="123" Click="orderButton_Click"/>
