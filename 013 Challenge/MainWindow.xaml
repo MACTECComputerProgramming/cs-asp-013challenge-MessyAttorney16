@@ -7,6 +7,27 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label Content="Logan's Subs and Software" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Sub Size:" HorizontalAlignment="Left" Margin="95,99,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Bread" HorizontalAlignment="Left" Margin="53,178,0,0" VerticalAlignment="Top"/>
+        <Label Content="Meat" HorizontalAlignment="Left" Margin="241,178,0,0" VerticalAlignment="Top"/>
+        <Label Content="Cheese" HorizontalAlignment="Left" Margin="412,178,0,0" VerticalAlignment="Top"/>
+        <Label Content="Veggies" HorizontalAlignment="Left" Margin="581,178,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="Six Inch Sub" HorizontalAlignment="Left" Margin="288,106,0,0" VerticalAlignment="Top" GroupName="Sub Size"/>
+        <RadioButton Content="Foot Long Sub" HorizontalAlignment="Left" Margin="504,106,0,0" VerticalAlignment="Top" GroupName="Sub "/>
+        <Label x:Name="choiceLabel" Content="Label" HorizontalAlignment="Left" Margin="95,300,0,0" VerticalAlignment="Top" Width="473"/>
+        <Label Content="Special *** $2.00 Off Foot Long/Wheat/Meatball/American/Any Veggie" HorizontalAlignment="Left" Margin="53,389,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="orderButton" Content="Place Order" HorizontalAlignment="Left" Margin="667,387,0,0" VerticalAlignment="Top" Height="37" Width="123"/>
+        <Label x:Name="costLabel" Content="Label" HorizontalAlignment="Left" Margin="95,345,0,0" VerticalAlignment="Top"/>
+        <Label Content="Choices:" HorizontalAlignment="Left" Margin="35,300,0,0" VerticalAlignment="Top"/>
+        <Label Content="Cost:" HorizontalAlignment="Left" Margin="52,345,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="88,0,0,0" VerticalAlignment="Center" GroupName="bread"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="114,248,0,0" VerticalAlignment="Top" GroupName="bread"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="127,282,0,0" VerticalAlignment="Top" GroupName="bread"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="269,210,0,0" VerticalAlignment="Top" GroupName="meat"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="260,240,0,0" VerticalAlignment="Top" GroupName="meat"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="260,263,0,0" VerticalAlignment="Top" GroupName="meat"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="260,289,0,0" VerticalAlignment="Top" GroupName="meat"/>
 
     </Grid>
 </Window>
