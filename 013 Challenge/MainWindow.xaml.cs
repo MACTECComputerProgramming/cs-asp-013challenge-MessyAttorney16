@@ -32,6 +32,16 @@ namespace _013_Challenge
             costLabel.Content = "";
             string subsize = "";
             string bread = "";
+            string meat = "";
+            string veggie = "";
+            string american = "";
+            string swiss = "";
+            string pepperjack = "";
+            string cucumber = "";
+            string pepper = "";
+            string lettuce = "";
+            string onion = "";
+            string all = "";
 
             //sub size
             if (radioSix.IsChecked == true)
@@ -57,17 +67,67 @@ namespace _013_Challenge
                 bread = "Flatbread, ";
             }
 
-            choiceLabel.Content = subsize + bread;
+            //meat
+            if (radioHam.IsChecked == true)
+            {
+                meat = "Ham, ";
+            }
+            else if (radioChicken.IsChecked == true)
+            {
+                meat = "Roasted Chicken, ";
+            }
+            else if (radioMeatball.IsChecked == true)
+            {
+                meat = "Meatball, ";
+            }
+            else if (radioSteak.IsChecked == true)
+            {
+                meat = "Steak, ";
+            }
 
-            ////meat
-            //if (radioHam.IsChecked == true)
-            //{
-            //    choiceLabel.Content = "Ham, ";
-            //}
-            //else if (radioChicken.IsChecked == true)
-            //{
-            //    choiceLabel.Content = "Roasted Chicken, ";
-            //}
+            //cheese
+            if (checkAmerican.IsChecked == true)
+            {
+                american = "American, ";
+            }
+            if (checkSwiss.IsChecked == true)
+            {
+                swiss = "Swiss, ";
+            }
+            if (checkPepperjack.IsChecked == true)
+            {
+                pepperjack = "Pepperjack, ";
+            }
+
+            //veggie
+            if (checkCucumber.IsChecked == true)
+            {
+                cucumber = "Cucumber, ";
+            }
+            if (checkPepper.IsChecked == true)
+            {
+                pepper = "Green Pepper, ";
+            }
+            if (checkLettuce.IsChecked == true)
+            {
+                lettuce = "Lettuce, ";
+            }
+            if (checkOnion.IsChecked == true)
+            {
+                onion = "Red Onion, ";
+            }
+            if (checkAll.IsChecked == true)
+            {
+                all = "All Veggies";
+                cucumber = "";
+                pepper = "";
+                lettuce = "";
+                onion = "";
+            }
+
+            choiceLabel.Content = subsize + bread + meat + american + swiss + pepperjack + cucumber + pepper + lettuce + onion + all;
+
+
         }
     }
 }
