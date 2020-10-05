@@ -7,4 +7,14 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Antonios Pizza-restaurant.jpg" />
+    <None Remove="Atkins-Wood-BG.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Antonios Pizza-restaurant.jpg" />
+    <Resource Include="Atkins-Wood-BG.jpg" />
+  </ItemGroup>
+
 </Project>

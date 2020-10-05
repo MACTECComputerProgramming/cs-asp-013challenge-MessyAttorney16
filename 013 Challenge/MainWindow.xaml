@@ -7,35 +7,38 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="Logan's Subs and Software" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <Label Content="Sub Size:" HorizontalAlignment="Left" Margin="137,98,0,0" VerticalAlignment="Top" FontSize="14"/>
-        <Label Content="Bread" HorizontalAlignment="Left" Margin="52,156,0,0" VerticalAlignment="Top"/>
-        <Label Content="Meat" HorizontalAlignment="Left" Margin="240,156,0,0" VerticalAlignment="Top"/>
-        <Label Content="Cheese" HorizontalAlignment="Left" Margin="411,156,0,0" VerticalAlignment="Top"/>
-        <Label Content="Veggies" HorizontalAlignment="Left" Margin="580,156,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="radioSix" Content="Six Inch Sub ($3.50)" HorizontalAlignment="Left" Margin="281,104,0,0" VerticalAlignment="Top" GroupName="sub size" FontSize="14"/>
-        <RadioButton x:Name="radioFoot" Content="Foot Long Sub ($5.00)" HorizontalAlignment="Left" Margin="504,104,0,0" VerticalAlignment="Top" GroupName="sub size" FontSize="14"/>
-        <Label x:Name="choiceLabel" Content="Label" HorizontalAlignment="Left" Margin="93,314,0,0" VerticalAlignment="Top" Width="690"/>
-        <Label Content="Special *** $2.00 Off Foot Long/Wheat/Meatball/American/Any Veggie" HorizontalAlignment="Left" Margin="53,389,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="orderButton" Content="Place Order" HorizontalAlignment="Left" Margin="667,387,0,0" VerticalAlignment="Top" Height="37" Width="123" Click="orderButton_Click"/>
-        <Label x:Name="costLabel" Content="Label" HorizontalAlignment="Left" Margin="93,345,0,0" VerticalAlignment="Top"/>
-        <Label Content="Choices:" HorizontalAlignment="Left" Margin="34,314,0,0" VerticalAlignment="Top"/>
-        <Label Content="Cost:" HorizontalAlignment="Left" Margin="51,345,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="radioWheat" Content="Wheat" HorizontalAlignment="Left" Margin="72,187,0,0" VerticalAlignment="Top" GroupName="bread"/>
-        <RadioButton x:Name="radioItalian" Content="Italian" HorizontalAlignment="Left" Margin="72,211,0,0" VerticalAlignment="Top" GroupName="bread"/>
-        <RadioButton x:Name="radioFlat" Content="Flatbread (+$0.50)" HorizontalAlignment="Left" Margin="72,233,0,0" VerticalAlignment="Top" GroupName="bread"/>
-        <RadioButton x:Name="radioHam" Content="Ham" HorizontalAlignment="Left" Margin="259,187,0,0" VerticalAlignment="Top" GroupName="meat"/>
-        <RadioButton x:Name="radioChicken" Content="Roasted Chicken" HorizontalAlignment="Left" Margin="259,211,0,0" VerticalAlignment="Top" GroupName="meat"/>
-        <RadioButton x:Name="radioMeatball" Content="Meatball (+$1.00)" HorizontalAlignment="Left" Margin="259,233,0,0" VerticalAlignment="Top" GroupName="meat"/>
-        <RadioButton x:Name="radioSteak" Content="Steak (+$1.50)" HorizontalAlignment="Left" Margin="259,256,0,0" VerticalAlignment="Top" GroupName="meat"/>
-        <CheckBox x:Name="checkAmerican" Content="American (+$0.25)" HorizontalAlignment="Left" Margin="435,187,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="checkSwiss" Content="Swiss (+$0.30)" HorizontalAlignment="Left" Margin="435,211,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="checkPepperjack" Content="Pepperjack (+$0.75)" HorizontalAlignment="Left" Margin="435,233,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="checkCucumber" Content="Cucumber" HorizontalAlignment="Left" Margin="606,187,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="checkPepper" Content="Green Pepper (+$0.25)" HorizontalAlignment="Left" Margin="606,211,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="checkLettuce" Content="Lettuce (+$0.15)" HorizontalAlignment="Left" Margin="606,233,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="checkOnion" Content="Red Onion (+$0.10)" HorizontalAlignment="Left" Margin="606,256,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="checkAll" Content="All Veggies (+$0.25)" HorizontalAlignment="Left" Margin="606,279,0,0" VerticalAlignment="Top"/>
+
+        <Image HorizontalAlignment="Left" Height="1381" Margin="-7,0,0,0" VerticalAlignment="Top" Width="1622" Source="/Atkins-Wood-BG.jpg"/>
+
+        <Label Content="Logan's Subs and Software" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+        <Label Content="Sub Size:" HorizontalAlignment="Left" Margin="137,98,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+        <Label Content="Bread" HorizontalAlignment="Left" Margin="52,156,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Meat" HorizontalAlignment="Left" Margin="240,156,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Cheese" HorizontalAlignment="Left" Margin="411,156,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Veggies" HorizontalAlignment="Left" Margin="580,156,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <RadioButton x:Name="radioSix" Content="Six Inch Sub ($3.50)" HorizontalAlignment="Left" Margin="281,104,0,0" VerticalAlignment="Top" GroupName="sub size" FontSize="14" FontWeight="Bold"/>
+        <RadioButton x:Name="radioFoot" Content="Foot Long Sub ($5.00)" HorizontalAlignment="Left" Margin="504,104,0,0" VerticalAlignment="Top" GroupName="sub size" FontSize="14" FontWeight="Bold"/>
+        <Label x:Name="choiceLabel" Content="" HorizontalAlignment="Left" Margin="93,314,0,0" VerticalAlignment="Top" Width="690"/>
+        <Label Content="Special *** $2.00 Off Foot Long/Wheat/Meatball/American/Any Veggie" HorizontalAlignment="Left" Margin="54,379,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button x:Name="orderButton" Content="Place Order" HorizontalAlignment="Left" Margin="660,373,0,0" VerticalAlignment="Top" Height="37" Width="123" Click="orderButton_Click" FontWeight="Bold"/>
+        <Label x:Name="costLabel" Content="" HorizontalAlignment="Left" Margin="93,345,0,0" VerticalAlignment="Top"/>
+        <Label Content="Choices:" HorizontalAlignment="Left" Margin="34,314,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Cost:" HorizontalAlignment="Left" Margin="51,345,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <RadioButton x:Name="radioWheat" Content="Wheat" HorizontalAlignment="Left" Margin="72,187,0,0" VerticalAlignment="Top" GroupName="bread" FontWeight="Bold"/>
+        <RadioButton x:Name="radioItalian" Content="Italian" HorizontalAlignment="Left" Margin="72,211,0,0" VerticalAlignment="Top" GroupName="bread" FontWeight="Bold"/>
+        <RadioButton x:Name="radioFlat" Content="Flatbread (+$0.50)" HorizontalAlignment="Left" Margin="72,233,0,0" VerticalAlignment="Top" GroupName="bread" FontWeight="Bold"/>
+        <RadioButton x:Name="radioHam" Content="Ham" HorizontalAlignment="Left" Margin="259,187,0,0" VerticalAlignment="Top" GroupName="meat" FontWeight="Bold"/>
+        <RadioButton x:Name="radioChicken" Content="Roasted Chicken" HorizontalAlignment="Left" Margin="259,211,0,0" VerticalAlignment="Top" GroupName="meat" FontWeight="Bold"/>
+        <RadioButton x:Name="radioMeatball" Content="Meatball (+$1.00)" HorizontalAlignment="Left" Margin="259,233,0,0" VerticalAlignment="Top" GroupName="meat" FontWeight="Bold"/>
+        <RadioButton x:Name="radioSteak" Content="Steak (+$1.50)" HorizontalAlignment="Left" Margin="259,256,0,0" VerticalAlignment="Top" GroupName="meat" FontWeight="Bold"/>
+        <CheckBox x:Name="checkAmerican" Content="American (+$0.25)" HorizontalAlignment="Left" Margin="435,187,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <CheckBox x:Name="checkSwiss" Content="Swiss (+$0.30)" HorizontalAlignment="Left" Margin="435,211,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <CheckBox x:Name="checkPepperjack" Content="Pepperjack (+$0.75)" HorizontalAlignment="Left" Margin="435,233,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <CheckBox x:Name="checkCucumber" Content="Cucumber" HorizontalAlignment="Left" Margin="606,187,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <CheckBox x:Name="checkPepper" Content="Green Pepper (+$0.25)" HorizontalAlignment="Left" Margin="606,211,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <CheckBox x:Name="checkLettuce" Content="Lettuce (+$0.15)" HorizontalAlignment="Left" Margin="606,233,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <CheckBox x:Name="checkOnion" Content="Red Onion (+$0.10)" HorizontalAlignment="Left" Margin="606,256,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <CheckBox x:Name="checkAll" Content="All Veggies (+$0.25)" HorizontalAlignment="Left" Margin="606,279,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
 
     </Grid>
 </Window>
