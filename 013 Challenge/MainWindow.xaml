@@ -18,10 +18,10 @@
         <Label Content="Veggies" HorizontalAlignment="Left" Margin="580,156,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <RadioButton x:Name="radioSix" Content="Six Inch Sub ($3.50)" HorizontalAlignment="Left" Margin="281,104,0,0" VerticalAlignment="Top" GroupName="sub size" FontSize="14" FontWeight="Bold"/>
         <RadioButton x:Name="radioFoot" Content="Foot Long Sub ($5.00)" HorizontalAlignment="Left" Margin="504,104,0,0" VerticalAlignment="Top" GroupName="sub size" FontSize="14" FontWeight="Bold"/>
-        <Label x:Name="choiceLabel" Content="" HorizontalAlignment="Left" Margin="93,314,0,0" VerticalAlignment="Top" Width="690"/>
+        <Label x:Name="choiceLabel" Content="" HorizontalAlignment="Left" Margin="93,314,0,0" VerticalAlignment="Top" Width="690" FontWeight="Bold"/>
         <Label Content="Special *** $2.00 Off Foot Long/Wheat/Meatball/American/Any Veggie" HorizontalAlignment="Left" Margin="54,379,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Button x:Name="orderButton" Content="Place Order" HorizontalAlignment="Left" Margin="660,373,0,0" VerticalAlignment="Top" Height="37" Width="123" Click="orderButton_Click" FontWeight="Bold"/>
-        <Label x:Name="costLabel" Content="" HorizontalAlignment="Left" Margin="93,345,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="costLabel" Content="" HorizontalAlignment="Left" Margin="93,345,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Label Content="Choices:" HorizontalAlignment="Left" Margin="34,314,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Label Content="Cost:" HorizontalAlignment="Left" Margin="51,345,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <RadioButton x:Name="radioWheat" Content="Wheat" HorizontalAlignment="Left" Margin="72,187,0,0" VerticalAlignment="Top" GroupName="bread" FontWeight="Bold"/>
